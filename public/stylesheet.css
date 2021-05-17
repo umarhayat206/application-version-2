@@ -1,0 +1,204 @@
+@charset "utf-8";
+/* CSS Document */
+
+.index_body
+{
+	 background-color:#343a40;
+	background-image: url("images/hav4.jpg");
+    background-repeat:no-repeat;
+    background-position:fixed;
+    background-size:cover;
+
+	 overflow-x: hidden;
+}
+.index_panel
+{
+	transform: translateY(70px);
+
+}
+.index_btn1
+{
+	width:95%;
+}
+
+.index_btn
+{
+	width:50%;
+}
+.panel-footer
+{
+	height:100px;
+}
+.navbar-default
+{
+	background-color:black;
+	padding:5px;
+}
+.nav-span
+{ 
+    margin-top:5px;
+	font-size:25px;
+}
+.glyphicon-search
+{ 
+  font-size:20px;
+}
+
+.ul
+{ margin:0px;
+padding:0px;
+list-style-type:none;
+list-decoration:none;
+display:block;
+background-color:;
+
+
+}
+.ul>li{text-align:center; padding:15px;border:1px solid black ;border-right: 0;}
+.ul>li>a:hover{ text-decoration:none;color:;}
+.ul>li>a{ color:black;font-size:16px}
+.divafterlogin1
+{
+height:750px;
+background-color:;
+
+margin-top:-18px;
+border: 1px solid rgba(0,0,0,.125);
+
+
+}
+.divafterlogin2
+{
+	text-align:center;
+	
+}
+.dashboard-div
+{
+	height:auto;
+	width:100%;
+	background-color:#008281;
+	color:white;
+}
+
+
+
+.nav-button{
+	float: right;
+	align-items: center;
+}
+
+.w3-bar{
+	background: black;
+	padding: 0;
+	display: block;
+	font-style: none;
+	font-family: sans-serif;
+	float: left;
+}
+
+
+
+
+
+
+.flex-container {
+  display: flex;
+}
+.flexbox{
+	display: flex;
+	background: blue;
+}
+/* ------------------ sidebar ------------------- */
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	font-size: xxx-large;
+	background-color: aqua;
+	align-items: center;
+	text-align: center;
+	font-family: sans-serif;
+	width: 40%;
+}
+.heading{
+	margin: 25%;
+}
+.sidebar-text{
+	font-size: 38px;
+	text-align: center;
+	font-family: sans-serif;
+
+}
+
+/* ----------------------------------------- */
+.login_form{
+	display: flex;
+	flex-direction: column;
+	font-size: xxx-large;
+	background-color: aqua;
+	align-items: center;
+	width: 60%;
+	flex-wrap: wrap-reverse;
+	font-family: sans-serif;
+}
+/*
+.left-div{
+
+  	float: left;
+  	width:40%;
+  	text-align:left;
+	background-color: orange;
+}
+*/
+.right-div{
+	display: flex;
+	float: right;
+	width:60%;
+  	text-align:left;
+	background-color: grey;
+}
+/* ---------------------- login page (div class="box")---------------------- */
+
+
+.box {
+	background-color: pink;
+    font-size: 25px;
+    padding-top: 200px;
+    height: 50%;
+    width: 50%;
+    margin: 5px;
+    text-align: center;     /* will center text in <p>, which is not a flex item */
+    align-items: center;
+}
+.welcome{
+	font-family: sans-serif;
+	font-size: 45px;
+	color: white;
+}
+/* ---------------------- footer ----------------- */
+.footer{
+	text-align: center;
+	font-size: 15px;
+}
+/* -------------------- home page float ---------------------- */
+
+.left-sidebar{
+width: 40%;
+float: left;
+}
+.right-body{
+width: 60%;
+float: right;
+}
+.tra{
+	text-align: center;
+	al
+}
+
+
+
+
+
+
+
+/* ---------------------------------------- */
+
